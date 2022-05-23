@@ -9,6 +9,7 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Homepage from "./Homepage";
 import Footer from "./Footer";
+import About from "./About";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
             <Route exact path="/" element={<Homepage />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </Main>
         <Footer />

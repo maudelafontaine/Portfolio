@@ -4,6 +4,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 const Header = () => {
   return (
     <Container>
+      <NavigationLink to="/about">About</NavigationLink>
       <NavigationLink to="/portfolio">Portfolio</NavigationLink>
       <NavigationLink to="/contact">Contact</NavigationLink>
     </Container>
@@ -12,17 +13,18 @@ const Header = () => {
 
 const Container = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: row;
-
-  background-color: black;
+  align-items: center;
+  background-color: #bbcbd2;
 `;
 
 const NavigationLink = styled(NavLink)`
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 10px;
-  font-size: 20px;
+  margin: 10px;
+  font-size: 23px;
 
   &:hover {
     cursor: pointer;

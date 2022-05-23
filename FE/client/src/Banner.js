@@ -10,16 +10,19 @@ const Banner = () => {
 };
 
 const Container = styled.div`
-  background-color: #ddfada;
+  background-color: #e3efe2;
   height: 40px;
-  padding: 30px;
+  /* padding: 30px; */
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 `;
 
 const Link = styled(NavLink)`
   font-family: "Barlow", sans-serif;
   text-decoration: none;
   color: black;
-  font-size: 26px;
+  font-size: 32px;
   font-weight: bold;
 
   &:hover {
