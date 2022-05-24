@@ -13,21 +13,24 @@ const Header = () => {
 
 const Container = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   background-color: #bbcbd2;
+  height: 80px;
 `;
 
 const NavigationLink = styled(NavLink)`
   color: black;
   text-decoration: none;
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin: 10px;
   font-size: 23px;
 
   &:hover {
     cursor: pointer;
+    border-bottom: 2px solid black;
   }
 `;
 

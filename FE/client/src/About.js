@@ -4,6 +4,7 @@ const About = () => {
   return (
     <Container>
       <Text>About</Text>
+      <Text>Skills</Text>
     </Container>
   );
 };

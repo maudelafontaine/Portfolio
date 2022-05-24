@@ -12,8 +12,7 @@ const Banner = () => {
 const Container = styled.div`
   background-color: #e3efe2;
   height: 40px;
-  /* padding: 30px; */
-  padding-left: 50px;
+  padding-left: 30px;
   padding-top: 40px;
   padding-bottom: 20px;
 `;
