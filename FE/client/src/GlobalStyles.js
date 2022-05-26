@@ -13,6 +13,18 @@ h1 {
     font-weight:normal ;
 }
 
+ul {
+    text-decoration:none ;
+    list-style-type:none ;
+    /* padding:10px ; */
+    
+}
+
+li {
+    text-decoration:none ;
+    list-style-type:none ;
+    font-size: 18px ;
+}
 @media screen and (max-width: 1200px) {
     body {
 background-color: #e8a995;

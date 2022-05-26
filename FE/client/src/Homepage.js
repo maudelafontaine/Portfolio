@@ -36,7 +36,7 @@ const Container = styled.div`
   background-color: #e8a995;
   height: 100%auto;
   /* border-top: 2px solid black; */
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 `;
 
@@ -59,7 +59,7 @@ const IconsContainer = styled.div`
 `;
 
 const Text = styled.p`
-  font-size: 20px;
+  font-size: 22px;
 `;
 
 const Picture = styled.img`
