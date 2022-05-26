@@ -15,21 +15,40 @@ h1 {
 
 @media screen and (max-width: 1200px) {
     body {
-        background-color: white;
+background-color: #e8a995;
     }
 }
 
 @media screen and (max-width: 768px) {
     body {
-        background-color: #a0d6b4;
+        background-color: white;
     }
 }
 
 @media screen and (max-width: 480px) {
     body {
-        background-color: white;
+        background-color: #e8a995;
     }
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
 
 `;

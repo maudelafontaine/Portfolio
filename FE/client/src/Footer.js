@@ -13,13 +13,13 @@ const Footer = () => {
           href={github}
           style={{ color: "black", textDecoration: "none", padding: "5px" }}
         >
-          <AiFillGithub size={34} />
+          <AiFillGithub size={34} style={{ color: "#888" }} />
         </a>
         <a
           href={linkedIn}
           style={{ color: "black", textDecoration: "none", padding: "5px" }}
         >
-          <AiFillLinkedin size={34} />
+          <AiFillLinkedin size={34} style={{ color: "#888" }} />
         </a>
       </LinksContainer>
       <Text>Designed and Developed by Maude Lafontaine</Text>
@@ -29,14 +29,15 @@ const Footer = () => {
 };
 
 const Container = styled.div`
-  /* border-top: 2px solid black; */
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top: 6px dotted #888;
+  /* padding: 20px; */
   background-color: #fff8e7;
-  height: 120px;
+  height: 100%;
+  width: 100%;
 `;
 
 const LinksContainer = styled.div`
@@ -44,17 +45,12 @@ const LinksContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
 `;
-
-// const Link = styled(NavLink)`
-//   text-decoration: none;
-//   color: black;
-// `;
 
 const Text = styled.p`
   font-size: 18px;
-  /* padding: 10px; */
+  margin-top: 20px;
 `;
 
 export default Footer;

@@ -36,10 +36,11 @@ const Wrapper = styled.div`
   /* background-color: pink; */
   width: 100%;
   height: 100%;
+  /* border: 3px solid white; */
 `;
 
 const Main = styled.div`
-  height: 800px;
+  /* height: 800px; */
 `;
 
 export default App;
