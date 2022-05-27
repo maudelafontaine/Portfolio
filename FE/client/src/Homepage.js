@@ -10,8 +10,7 @@ const Homepage = () => {
         <b>Welcome</b>, I'm Maude Lafontaine
       </Title>
       <ContentContainer>
-        <Text>I'm a full-stack web developer based in Canada.</Text>
-
+        <Text>I'm a Full-Stack Web Developer based in Canada.</Text>
         <IconsContainer>
           <RiComputerLine
             size={38}
@@ -31,7 +30,7 @@ const Homepage = () => {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   background-color: #e8a995;
   height: 100%auto;
@@ -40,7 +39,9 @@ const Container = styled.div`
   padding-bottom: 50px;
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-size: 24px;
+`;
 
 const ContentContainer = styled.div`
   display: flex;
@@ -49,6 +50,13 @@ const ContentContainer = styled.div`
   align-items: center;
   /* border: 2px solid black; */
   margin-bottom: 20px;
+  margin-top: 20px;
+`;
+
+const Text = styled.p`
+  font-size: 22px;
+  padding: 0px;
+  margin: 0px;
 `;
 
 const IconsContainer = styled.div`
@@ -56,10 +64,7 @@ const IconsContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-`;
-
-const Text = styled.p`
-  font-size: 22px;
+  padding-top: 15px;
 `;
 
 const Picture = styled.img`

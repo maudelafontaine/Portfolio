@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 const Contact = () => {
-  const linkedIn = "https://www.linkedin.com/in/maudelafontaine/";
+  const linkedIn = "https://www.linkedin.com/in/maude-lafontaine-271230217/";
   return (
     <Container>
       <Title>Let's collaborate </Title>
@@ -17,6 +17,9 @@ const Contact = () => {
             marginBottom: "5px",
             borderBottom: "4px solid #fff8e7",
             paddingBottom: "4px",
+            color: "#fff8e7",
+            fontWeight: "bold",
+            fontSize: "22px",
             // fontWeight: "bold",
           }}
         >
@@ -52,26 +55,30 @@ const Container = styled.div`
 `;
 
 const Title = styled.b`
-  font-size: 28px;
+  font-size: 32px;
   /* margin-top: 40px; */
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: #888;
 `;
 
 const Text = styled.p`
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 10px;
 `;
 
 const Wrapper = styled.div`
-  border: 4px solid #888;
+  border: 4px solid #fff8e7;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  padding: 25px;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 70px;
+  padding-left: 70px;
   border-radius: 8px;
+  background-color: #888;
 `;
 
 const ContactsContainer = styled.div`
@@ -81,7 +88,10 @@ const ContactsContainer = styled.div`
   /* align-items: center; */
   margin-top: 20px;
   /* border: 2px solid black; */
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 `;
 
 const InfoContainer = styled.div`

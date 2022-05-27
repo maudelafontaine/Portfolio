@@ -5,7 +5,7 @@ export default createGlobalStyle`
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family:  'Source Sans Pro', sans-serif;
 }
 
 h1 {
@@ -75,4 +75,9 @@ darker pink: #F4BCB8;
 
 color palette:
 https://www.sirahmora.com/our-work
+*/
+
+/* 
+grey: #888
+beige: #fff8e7
 */
