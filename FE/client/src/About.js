@@ -118,10 +118,10 @@ const Container = styled.div`
 `;
 
 const Title = styled.h2`
-  font-weight: normal;
+  font-weight: bold;
   font-size: 28px;
   /* color: #fff8e7; */
-  color: black;
+  color: #888;
   border-bottom: 4px solid #fff8e7;
 `;
 
