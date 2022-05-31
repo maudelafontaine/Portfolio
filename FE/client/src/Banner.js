@@ -16,6 +16,7 @@ const Container = styled.div`
   padding-left: 30px;
   padding-top: 40px;
   padding-bottom: 20px;
+  width: 100%;
 `;
 
 const Link = styled(NavLink)`
@@ -24,6 +25,7 @@ const Link = styled(NavLink)`
   color: black;
   font-size: 32px;
   font-weight: bold;
+  padding-left: 20px;
 
   &:hover {
     cursor: pointer;

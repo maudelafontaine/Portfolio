@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 const Contact = () => {
-  const linkedIn = "https://www.linkedin.com/in/maude-lafontaine-271230217/";
+  const linkedIn = "https://www.linkedin.com/in/maudelafontaine/";
   return (
     <Container>
       <Title>Let's collaborate </Title>
@@ -51,6 +51,8 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 600px;
+  width: 100%;
+
   padding: 20px;
 `;
 

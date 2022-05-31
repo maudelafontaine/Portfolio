@@ -115,6 +115,7 @@ const Container = styled.div`
   flex-direction: column;
   padding-top: 50px;
   padding-bottom: 100px;
+  width: 100%;
 `;
 
 const Title = styled.h2`

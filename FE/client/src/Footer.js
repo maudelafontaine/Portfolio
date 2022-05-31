@@ -5,7 +5,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => {
   const github = "https://github.com/maudelafontaine";
-  const linkedIn = "https://www.linkedin.com/in/maude-lafontaine-271230217/";
+  const linkedIn = "https://www.linkedin.com/in/maudelafontaine/";
   return (
     <Container>
       <LinksContainer>

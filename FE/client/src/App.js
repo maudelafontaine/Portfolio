@@ -41,6 +41,7 @@ const Wrapper = styled.div`
 
 const Main = styled.div`
   /* height: 800px; */
+  width: 100%;
 `;
 
 export default App;
