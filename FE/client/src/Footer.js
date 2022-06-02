@@ -13,13 +13,13 @@ const Footer = () => {
           href={github}
           style={{ color: "black", textDecoration: "none", padding: "5px" }}
         >
-          <AiFillGithub size={35} style={{ color: "#888" }} />
+          <AiFillGithub size={35} style={{ color: "black" }} />
         </a>
         <a
           href={linkedIn}
           style={{ color: "black", textDecoration: "none", padding: "5px" }}
         >
-          <AiFillLinkedin size={35} style={{ color: "#888" }} />
+          <AiFillLinkedin size={35} style={{ color: "black" }} />
         </a>
       </LinksContainer>
       <TextContainer>
@@ -36,7 +36,9 @@ const Container = styled.div`
   /* justify-content: center; */
   /* align-items: center; */
   border-top: 6px dotted #888;
-  background-color: #fff8e7;
+  /* background-color: #fff8e7; */
+  background-color: #cbdee9;
+  background-color: #ffe0cf;
   height: 100%;
   width: 100%;
 `;

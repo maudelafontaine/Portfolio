@@ -33,7 +33,8 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #e8a995;
-  height: 100%auto;
+  background-color: #c68688;
+  height: 100%;
   /* border-top: 2px solid black; */
   padding-top: 50px;
   padding-bottom: 50px;

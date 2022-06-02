@@ -28,7 +28,7 @@ const Portfolio = () => {
 const Container = styled.div`
   height: 100%;
   width: 100%;
-  background-color: #e8a995;
+  background-color: #c68688;
   display: flex;
   flex-direction: column;
   align-items: center;

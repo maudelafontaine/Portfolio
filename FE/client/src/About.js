@@ -107,7 +107,7 @@ const About = () => {
 
 const Container = styled.div`
   height: 100%;
-  background-color: #e8a995;
+  background-color: #c68688;
   padding: 10px;
   display: flex;
   /* justify-content: center; */

@@ -5,7 +5,7 @@ export default createGlobalStyle`
 body {
     margin: 0;
     padding: 0;
-    font-family:  'Source Sans Pro', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 h1 {
@@ -71,7 +71,7 @@ light grren: #ddfada
 light green: #DCE4D1
 light pink: #FFEFE&;
 darker pink: #F4BCB8;
-
+cute grey: #ffe0cf; 
 
 color palette:
 https://www.sirahmora.com/our-work

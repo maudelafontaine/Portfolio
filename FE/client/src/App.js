@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import GlobalStyles from "./GlobalStyles";
 import Banner from "./Banner";
-import Header from "./Header";
+// import Header from "./Header";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Homepage from "./Homepage";
@@ -17,7 +17,7 @@ const App = () => {
       <Router>
         <GlobalStyles />
         <Banner />
-        <Header />
+        {/* <Header /> */}
         <Main>
           <Routes>
             <Route exact path="/" element={<Homepage />} />

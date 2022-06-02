@@ -45,7 +45,8 @@ const Contact = () => {
 };
 
 const Container = styled.div`
-  background-color: #e8a995;
+  /* background-color: #e8a995; */
+  background-color: #c68688;
   display: flex;
   flex-direction: column;
   align-items: center;
