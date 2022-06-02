@@ -38,14 +38,15 @@ const Container = styled.div`
 
 const Title = styled.h1`
   font-size: 32px;
-  background-color: #e3efe2;
+  /* background-color: #cbdee9; */
   padding: 10px;
-  margin-top: 50px;
+  margin-top: 70px;
   font-weight: bold;
+  color: #ffe0cf;
 `;
 
 const ProjectsContainer = styled.div`
-  background-color: white;
+  /* background-color: white; */
   padding: 40px;
   margin-left: 40px;
   margin-right: 40px;
@@ -62,13 +63,15 @@ const ProjectsContainer = styled.div`
 const Project = styled.div``;
 
 const ProjectContainer = styled.div`
-  background-color: #e3efe2;
+  /* background-color: #e3efe2; */
+  background-color: #cbdee9;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
   width: 100%;
   padding: 10px;
+  border-radius: 10px;
 `;
 
 const Name = styled.p`

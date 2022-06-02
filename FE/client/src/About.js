@@ -35,15 +35,19 @@ const About = () => {
             learn how to create web applications because I was fascinated by all
             the functionnalities offered by the web. I wanted to know more about
             how the web applications that I use everyday work as a developer
-            perspective instead of only as user viewpoint.
+            perspective instead of only a user viewpoint.
           </Text>
           <Text>
             I'm currently looking for new opportunities and look forward to work
             on applications for the web.{" "}
           </Text>
           <HiOutlineDesktopComputer
-            size={35}
-            style={{ paddingBottom: "25px", paddingTop: "20px" }}
+            size={45}
+            style={{
+              paddingBottom: "25px",
+              paddingTop: "20px",
+              color: "#cbdee9",
+            }}
           />
         </TextContainer>
       </AboutMeContainer>
@@ -121,9 +125,10 @@ const Container = styled.div`
 const Title = styled.h2`
   font-weight: bold;
   font-size: 28px;
-  /* color: #fff8e7; */
+  font-size: 32px;
   color: #888;
-  border-bottom: 4px solid #fff8e7;
+  /* border-bottom: 4px solid #fff8e7; */
+  color: #ffe0cf;
 `;
 
 const AboutMeContainer = styled.div`
@@ -131,6 +136,9 @@ const AboutMeContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px;
+  /* padding: 20px; */
+  width: 800px;
   /* background-color: white; */
   /* border: 2px solid black; */
   /* background-color: #fff8e7; */
@@ -142,9 +150,9 @@ const TextContainer = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  padding-top: 25px;
-  padding-bottom: 20px;
-  background-color: #fff8e7;
+  padding: 30px;
+  background-color: #ffe0cf;
+  width: 800px;
 `;
 
 const Text = styled.p`
@@ -164,37 +172,38 @@ const SkillsContainer = styled.div`
 `;
 const Wrapper = styled.div`
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: row;
-  /* align-items: center; */
-  /* border: 2px solid black; */
-  background-color: #888;
+  /* background-color: #cbdee9; */
 `;
 
 const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid #fff8e7;
-  height: 400px;
-  width: 300px;
+  margin: 10px;
+  border: 5px solid #ffe0cf;
+  background-color: #cbdee9;
+  height: 350px;
+  width: 400px;
 `;
 
-const List = styled.ul``;
+const List = styled.ul`
+  /* padding: 10px; */
+`;
 
 const Type = styled.h2`
-  color: #fff8e7;
-  border-bottom: 3px solid #fff8e7;
-  font-size: 24px;
+  color: #c68688;
+  /* border-bottom: 3px solid #fff8e7; */
+  font-size: 25px;
   padding: 0px;
   margin-top: 30px;
-  font-weight: normal;
+  font-weight: bold;
 `;
 
 const Item = styled.li`
   padding: 6px;
   font-size: 20px;
-  color: #fff8e7;
+  color: black;
 `;
 
 export default About;

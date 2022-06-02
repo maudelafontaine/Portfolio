@@ -50,13 +50,13 @@ const Link = styled(NavLink)`
 
 const Logo = styled.img`
   width: 300px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 `;
 
 const LinksContainer = styled.div`
   display: flex;
   flex-direction: row;
-  margin-right: 50px;
+  margin-right: 70px;
   margin-bottom: 30px;
   /* border: 2px solid black; */
   height: 40px;
@@ -71,8 +71,9 @@ const NavigationLink = styled(NavLink)`
 
   &:hover {
     cursor: pointer;
-    border-bottom: 3px solid #c68688;
-    color: #888;
+    border-bottom: 5px solid #cbdee9;
+    color: #cbdee9;
+    color: #c68688;
     font-size: 30px;
     /* font-weight: bold; */
   }
