@@ -52,9 +52,8 @@ const ProjectsContainer = styled.div`
   margin-right: 40px;
   margin-bottom: 50px;
   display: grid;
-  column-gap: 10px;
   grid-template-columns: auto auto;
-  column-gap: 40px;
+  column-gap: 80px;
   row-gap: 60px;
   /* grid-template-columns: repeat(2); */
   /* gap: 10px; */
@@ -70,7 +69,7 @@ const ProjectContainer = styled.div`
   align-items: center;
   height: 900px;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
 `;
 

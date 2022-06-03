@@ -27,14 +27,15 @@ li {
 }
 @media screen and (max-width: 1200px) {
     body {
-background-color: #e8a995;
+/* background-color: #e8a995; */
     }
 }
 
 @media screen and (max-width: 768px) {
-    body {
+    /* body {
         background-color: white;
     }
+} */
 }
 
 @media screen and (max-width: 480px) {
