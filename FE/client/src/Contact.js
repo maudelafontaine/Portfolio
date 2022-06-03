@@ -19,7 +19,7 @@ const Contact = () => {
             paddingBottom: "4px",
             color: "#c68688",
             fontWeight: "bold",
-            fontSize: "22px",
+            fontSize: "25px",
             // fontWeight: "bold",
           }}
         >
@@ -27,15 +27,15 @@ const Contact = () => {
         </Text>
         <ContactsContainer>
           <InfoContainer>
-            <AiFillLinkedin size={30} style={{ color: "#c68688" }} />
+            <AiFillLinkedin size={32} style={{ color: "#c68688" }} />
             <Link href={linkedIn}>
-              <b>/MaudeLafontaine</b>
+              <b style={{ fontSize: "22px" }}>/MaudeLafontaine</b>
             </Link>
           </InfoContainer>
           <InfoContainer>
-            <AiOutlineMail size={30} style={{ color: "#c68688" }} />
+            <AiOutlineMail size={32} style={{ color: "#c68688" }} />
             <Info>
-              <b>maudelafontaine1313@gmail.com</b>
+              <b style={{ fontSize: "22px" }}>maudelafontaine1313@gmail.com</b>
             </Info>
           </InfoContainer>
         </ContactsContainer>

@@ -84,7 +84,7 @@ const Text = styled.p`
 
 const Dev_Picture = styled.img`
   /* border-radius: 50%; */
-  margin-top: 30px;
+  margin-top: 40px;
   width: 300px;
   height: 220px;
   border-radius: 2px;

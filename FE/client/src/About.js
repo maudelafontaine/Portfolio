@@ -124,8 +124,8 @@ const Container = styled.div`
 
 const Title = styled.h2`
   font-weight: bold;
-  font-size: 28px;
   font-size: 32px;
+
   color: #888;
   /* border-bottom: 4px solid #fff8e7; */
   color: #ffe0cf;
@@ -156,7 +156,7 @@ const TextContainer = styled.div`
 `;
 
 const Text = styled.p`
-  font-size: 20px;
+  font-size: 22px;
   padding: 10px;
   margin: 5px;
 `;
@@ -194,7 +194,7 @@ const List = styled.ul`
 const Type = styled.h2`
   color: #c68688;
   /* border-bottom: 3px solid #fff8e7; */
-  font-size: 25px;
+  font-size: 26px;
   padding: 0px;
   margin-top: 30px;
   font-weight: bold;
@@ -202,7 +202,7 @@ const Type = styled.h2`
 
 const Item = styled.li`
   padding: 6px;
-  font-size: 20px;
+  font-size: 22px;
   color: black;
 `;
 

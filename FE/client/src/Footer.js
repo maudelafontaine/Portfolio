@@ -13,13 +13,13 @@ const Footer = () => {
           href={github}
           style={{ color: "black", textDecoration: "none", padding: "5px" }}
         >
-          <AiFillGithub size={35} style={{ color: "black" }} />
+          <AiFillGithub size={40} style={{ color: "black" }} />
         </a>
         <a
           href={linkedIn}
           style={{ color: "black", textDecoration: "none", padding: "5px" }}
         >
-          <AiFillLinkedin size={35} style={{ color: "black" }} />
+          <AiFillLinkedin size={40} style={{ color: "black" }} />
         </a>
       </LinksContainer>
       <TextContainer>
@@ -48,7 +48,7 @@ const LinksContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
 `;
 
 const TextContainer = styled.div`
@@ -57,6 +57,7 @@ const TextContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
+  padding-bottom: 30px;
 `;
 
 const Text = styled.p`

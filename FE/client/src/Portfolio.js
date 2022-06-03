@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { projects } from "./data";
+// import Technologies from "./Technologies";
 
 const Portfolio = () => {
   return (
@@ -12,11 +13,10 @@ const Portfolio = () => {
               <Name>{p.name}</Name>
               <Picture src={p.picture} />
               <Description>{p.description}</Description>
-              <Text>Technologies Used</Text>
-              {/* {projects.technologies.map((t) => (
-                <Technology key={t}>{t}</Technology>
-              ))} */}
-              <Link href={p.link}>Code</Link>
+              <Technologies>Technologies Used: {p.technologies}</Technologies>
+              <Link href={p.link}>
+                Find the <b>code</b> here
+              </Link>
             </ProjectContainer>
           </Project>
         ))}
@@ -68,7 +68,7 @@ const ProjectContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  height: 900px;
   width: 100%;
   padding: 10px;
   border-radius: 10px;
@@ -76,11 +76,14 @@ const ProjectContainer = styled.div`
 
 const Name = styled.p`
   font-weight: bold;
-  font-size: 34px;
+  font-size: 28px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
 `;
 
 const Picture = styled.img`
-  width: 80%;
+  width: 100%;
   height: 60%;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -92,19 +95,21 @@ const Picture = styled.img`
 `;
 
 const Description = styled.p`
-  font-size: 26px;
+  font-size: 22px;
+  padding-top: 14px;
 `;
 
-const Text = styled.p`
-  font-size: 22px;
-  font-weight: bold;
+const Technologies = styled.p`
+  font-size: 18px;
+  /* font-weight: bold; */
 `;
 
 const Link = styled.a`
   text-decoration: none;
   color: black;
   font-size: 22px;
-  font-weight: bold;
+  margin-top: 20px;
+  /* font-weight: bold; */
 `;
 
 // const Technology = styled.p``;
