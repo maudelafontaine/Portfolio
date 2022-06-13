@@ -39,8 +39,8 @@ const Container = styled.div`
   background-color: #c68688;
   height: 100%;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 `;
 
 const ContentContainer = styled.div`
@@ -52,11 +52,11 @@ const ContentContainer = styled.div`
   margin-bottom: 20px;
   margin-top: 20px;
   width: 50%;
+  height: 200px;
 `;
 
 const Picture = styled.img`
   width: 70%;
-  /* height: 50%; */
   border-radius: 2px;
   /* padding-bottom: 40px; */
   border: 10px solid #ffe0cf;
@@ -67,8 +67,10 @@ const Wrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   /* border: 2px solid black; */
-  width: 600px;
+  width: 50%;
+  /* height: 100%; */
   margin-right: 40px;
+  margin-left: 100px;
 `;
 
 const Title = styled.h1`
@@ -85,8 +87,8 @@ const Text = styled.p`
 const Dev_Picture = styled.img`
   /* border-radius: 50%; */
   margin-top: 40px;
-  width: 300px;
-  height: 220px;
+  width: 40%;
+  /* height: ; */
   border-radius: 2px;
   border: 4px solid #ffe0cf;
 `;

@@ -37,6 +37,9 @@ const Wrapper = styled.div`
   /* width: 100%;
   height: 100%; */
   /* border: 3px solid white; */
+  margin: 0;
+  padding: 0;
+  width: 100%;
 `;
 
 const Main = styled.div`

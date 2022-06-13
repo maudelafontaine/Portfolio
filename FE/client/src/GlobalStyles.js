@@ -2,9 +2,13 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: 'Tenor Sans', sans-serif;
 }
 
@@ -25,24 +29,26 @@ li {
     list-style-type:none ;
     font-size: 18px ;
 }
+
+
 @media screen and (max-width: 1200px) {
     body {
 /* background-color: #e8a995; */
     }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     /* body {
         background-color: white;
     }
 } */
-}
 
-@media screen and (max-width: 480px) {
+
+/* @media screen and (max-width: 480px) {
     body {
         background-color: #e8a995;
-    }
-}
+    } */
+
 
 ::-webkit-scrollbar {
     width: 10px;
