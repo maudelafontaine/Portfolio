@@ -28,7 +28,7 @@ const Container = styled.div`
   /* padding-top: 40px;  */
   /* padding-bottom: 20px; */
   width: 100%;
-  height: 100%;
+  /* height: 20vh; */
 `;
 
 const LogoContainer = styled.div`

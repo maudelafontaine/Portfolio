@@ -63,6 +63,7 @@ const Title = styled.b`
   margin-bottom: 20px;
   color: #888;
   color: #ffe0cf;
+  padding-bottom: 20px;
 `;
 
 const Text = styled.p`

@@ -34,6 +34,11 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   margin: 0px;
+  padding: 10px;
+
+  /* @media only screen and (min-width: 700px) {
+    width: 100%;
+  } */
 `;
 
 const Title = styled.h1`

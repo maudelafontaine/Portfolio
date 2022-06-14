@@ -2,17 +2,23 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
-* {
-    box-sizing: border-box;
+ * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Tenor Sans', sans-serif;
+    background-color:white ;
+    display:flex ;
+    width:100% ;
+  
 }
 
-h1 {
+// for mobile phones
+/* body {
+} */
+
+/* h1 {
     font-size: 24px ;
     font-weight:normal ;
 }
@@ -22,33 +28,30 @@ ul {
     list-style-type:none ;
     /* padding:10px ; */
     
-}
 
+/* 
 li {
     text-decoration:none ;
     list-style-type:none ;
     font-size: 18px ;
-}
-
-
-@media screen and (max-width: 1200px) {
-    body {
-/* background-color: #e8a995; */
-    }
-}
-
-/* @media screen and (max-width: 768px) {
-    /* body {
-        background-color: white;
-    }
 } */
 
-
-/* @media screen and (max-width: 480px) {
+// for desktop
+/* @media (min-width: 768px) {
     body {
-        background-color: #e8a995;
-    } */
+background-color: black;
+    }
+} */ 
 
+/* @media (orientation: landscape) {
+
+} */
+/* 
+@media only screen and (mix-width: 600px) {
+    body {
+        width:100% ;
+    }
+} */
 
 ::-webkit-scrollbar {
     width: 10px;

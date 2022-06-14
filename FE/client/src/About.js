@@ -110,25 +110,25 @@ const About = () => {
 };
 
 const Container = styled.div`
-  height: 100%;
-  background-color: #c68688;
-  padding: 10px;
   display: flex;
+  flex-direction: column;
+  background-color: #c68688;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
   /* justify-content: center; */
   align-items: center;
-  flex-direction: column;
   padding-top: 50px;
   padding-bottom: 100px;
-  width: 100%;
 `;
 
 const Title = styled.h2`
   font-weight: bold;
   font-size: 32px;
-
   color: #888;
   /* border-bottom: 4px solid #fff8e7; */
   color: #ffe0cf;
+  padding-bottom: 20px;
 `;
 
 const AboutMeContainer = styled.div`
